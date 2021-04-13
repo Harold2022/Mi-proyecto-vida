@@ -1,0 +1,82 @@
+/* Resetear algunos estilos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Importar las fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+/* Estilizar de manera general algunos elementos */
+body {
+  font-family: "kiwi maru", serif;
+  text-align: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 30px;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dela Gothic One", cursive;
+}
+
+p {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 87);
+}
+
+ol,
+ul {
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Estilos personalizados */
+
+.lista-numerada {
+  list-style: decimal;
+  list-style-position: inside;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  background-color: black;
+}
+
+.menu li {
+  padding: 5px;
+  text-align: center;
+  box-shadow: center;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background-color: rgb(250, 12, 111);
+  font-weight: bold;
+}
+
+.menu li.activo {
+  background-color: black;
+  font-weight: bold;
+}
+
+img {
+  align-items: center;
+  border-radius: 5%;
+  margin: o;
+}
+.contenido {
+  margin-top: 5rem;
+}
